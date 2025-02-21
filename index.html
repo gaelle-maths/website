@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaëlle Maths</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f0f2ff;
+      }
+
+      header {
+        background-color: #663399;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      .header-content {
+        flex: 1;
+        min-width: 300px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .header-image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .info-section {
+        background-color: white;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-left: 5px solid #ff6600;
+      }
+
+      .info-section h2 {
+        color: #663399;
+        margin-top: 0;
+      }
+
+      .button-container {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+
+      .button {
+        background-color: #ff6600;
+        color: white;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .button:hover {
+        background-color: #ff8533;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .button > a  {
+        text-decoration: none;
+        color:white;
+      }
+
+      .info-section > h2 > a {
+        text-decoration: none;
+        color: #663399;
+      }
+
+      @media (max-width: 800px) {
+        header {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .button-container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+        <header>
+        <img src="./profile.jpg" alt="photo de profil" class="header-image">
+        </div>
+    </header>
+    <div class="container">
+      <div class="info-section">
+        <h2>À propos de moi</h2>
+        <h3>👋 Bonjour, je m'appelle Gaëlle</h3>
+
+        <p>
+          J'ai enseigné les maths au collège entre 2015 et 2018, en parallèle de
+          mes études. </p>
+          
+          <p>Aujourd'hui, je souhaite aider les élèves et les
+          étudiant·e·s :</p>
+          <ul>
+            <li>à reprendre confiance dans leurs capacités</li>
+            <li>à retrouver le chemin de la réussite</li>
+            <li>et, soyons fous, à apprécier cette belle discipline !</li>
+          </ul> 
+        </p>
+      </div>
+
+      <div class="info-section">
+        <h2>Contactez-moi par email à l'adresse <a href="mailto: gaelle-maths@hotmail.com">gaelle-maths@hotmail.com</a></p></h2> 
+       
+
+      </div>
+
+      <div class="button-container">
+        <button
+          class="button"
+          >
+          <a href="https://cal.com/gaelle-maths" target="_blank">Réserver un cours</a>
+          
+        </button>
+        <button class="button"
+        >
+                  <a href="https://liberapay.com/gaelle-maths/donate" target="_blank"> Faire un don</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
